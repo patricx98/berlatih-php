@@ -10,7 +10,7 @@ function palindrome_angka($angka) {
             $text .= $split[$i];         
         }
     }while ($text != $angka);
-    echo($text."<br>");
+    return($text."<br>");
 }
 
 // TEST CASES

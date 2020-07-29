@@ -14,7 +14,7 @@ function tentukan_deret_aritmatika($arr) {
 			break;
 		}
 	}
-	echo($kondisi."<br>");
+	return($kondisi."<br>");
 }
 
 // TEST CASES

@@ -11,7 +11,7 @@ function tentukan_deret_geometri($arr) {
 			break;	
 		}
 	}
-	echo ($kondisi."<br>");
+	return($kondisi."<br>");
 	
 }
 //TEST CASES

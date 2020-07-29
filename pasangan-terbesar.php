@@ -10,7 +10,7 @@ function pasangan_terbesar($angka){
     		$terbesar = $text;
     	}   
     }
-    echo "$terbesar";
+    return($terbesar);
     echo("<br>");
 }
 

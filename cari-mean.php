@@ -6,7 +6,7 @@ function cari_mean($arr){
 	for ($i = 0; $i < $panjang; $i++){
 		$mean += $arr[$i];
 	}
-	echo (round($mean/$panjang));
+	return(round($mean/$panjang));
 	echo("<br>");
 }
 
